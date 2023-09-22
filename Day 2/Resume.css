@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    padding: 60px;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+
+}
+
+.desc {
+    color: lightslategray;
+}
+
+.desc-1 {
+    color: rgb(42, 41, 41);
+}
+
+
+
+.section-1 {
+    display: flex;
+    
+}
+
+.contact {
+    padding-right: 48px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.education {
+    padding-right: 30px;
+}
