@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poppins:wght@200;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 70px 70px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile-image {
+    width: 300px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 150px;
+    width: 240px;
+    height: 240px;
+    margin-top: -67px;
+}
+
+.profile {
+    align-items: center;
+}
+
+.name {
+    font-family: 'Lobster Two', cursive;
+    text-align: left;
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    padding: 0;
+}
+
+.email {
+    padding-left: 5px;
+}
+
+.introduction {
+    display: block;
+    margin-top: 40px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tables {
+    display: flex;
+}
+
+.education {
+    margin-left: 30px;
+}
+
+.table1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.table3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1 {
+    margin-left: 37px;
+}
+
+.heading2 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.skills2 {
+    display: flex;
+}
+
+.skills {
+    margin-left: 70px;
+}
