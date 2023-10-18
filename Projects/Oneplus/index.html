@@ -1,61 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oneplus</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
-        }
-
-        #screen {
-            width: 100%;
-        }
-
-        #header {
-            width: 100%;
-        }
-        #nav-1 {
-            width: 100%;
-            background-color: black;
-            color: white;
-            display: flex;
-            font-size: 16px;
-            height: 32px;
-            padding-top: 15px;
-            text-align: center;
-        }
-
-        #nav-1> :nth-child(1) {
-            width: 22%;
-        }
-        #nav-1> :nth-child(2) {
-            width: 50%;
-        }
-        #nav-1> :nth-child(3) {
-            width: 24%;
-            text-align: right;
-
-        }
-    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <script src="https://kit.fontawesome.com/0926a5a74f.js" crossorigin="anonymous"></script>
+   <title>Oneplus</title>
 </head>
+
 <body>
-    <div id="screen">
-        <div id="header">
-            <div id="nav-1">
-                <p></p>
-                <p>Hit ‘Notify Me’ and stand a chance to win a OnePlus Open. Notify Me ›</p>
-                <p><i class="fa-solid fa-x"></i></p>
+   <div class="header">
+      <div class="notification">
+         <p></p>
+         <p class="noti-text">Hit ‘Notify Me’ and stand a chance to win a OnePlus Open. Notify Me ›</p>
+         <p><i class="fa-solid fa-x x-icon"></i></p>
+      </div>
+      <div class="nav-menu">
+         <div class="menu-1">
+            <img src="./Images/oneplus-logo.png" alt="logo" class="logo">
+            <div class="menu">Phone</div>
+            <div class="menu">TV & Display</div>
+            <div class="menu">Audio & Watch</div>
+            <div class="menu">Tablet</div>
+            <div class="menu">Accessories</div>
+            <div class="menu">Offers</div>
+         </div>
+         <div class="menu-2">
+            <div class="menu">Store</div>
+            <div class="menu">OneTopia</div>
+            <div class="menu">OnePlus Featuring</div>
+            <div class="menu">Comunity</div>
+            <div class="menu">Support</div>
+            <div><i class="menu-icon fa-solid fa-magnifying-glass"></i></div>
+            <div><i class="menu-icon fa-solid fa-cart-shopping"></i></div>
+            <div><i class="menu-icon fa-regular fa-user"></i></div>
+         </div>
+      </div>
+   </div>
+
+   <div class="slider-container">
+      <div class="slider">
+         <div class="slider-text">
+            <div class="slider-sub-head">
+               With those who matter
             </div>
-            <div id="nav-2"></div>
-        </div>
-        <div id="body"></div>
-        <div id="footer"></div>
-    </div>
+            <div class="slider-head">
+               #OneCelebration
+            </div>
+         </div>
+         <div class="slider-img">
+            <img src="./Images/asset 2.webp" alt="slider" class="slider-image">
+         </div>
+         <div class="buy-now-btn">
+            <button class="btn-1">Buy Now</button>
+         </div>
+      </div>
+   </div>
+
+   <div class="separator-1"></div>
+
+   <div class="mobile-container">
+      <div class="mobile">
+         <div class="mobile-desc">
+            <div class="mobile-head">
+               OnePlus Nord CE3
+            </div>
+            <p class="net">5G</p>
+            <p class="price">
+               Save ₹2 000 with coupon. Save up to ₹1000 with RedCoins.
+            </p>
+            <p class="discount">
+               From ₹22 999*<br>
+               *Incl. bank discount
+            </p>
+            <div class="buttons">
+               <button class="btn-2">Buy Now</button>
+               <button class="btn-4">Learn More</button>
+            </div>
+         </div>
+         <div class="mobile-img">
+            <img src="https://www.oneplus.in/content/dam/oasis/page/2023/in/home/diwali/1009/new/01-pc.jpg.thumb.webp"
+               alt="">
+         </div>
+      </div>
+   </div>
+
+   <div class="separator-2"></div>
+
+   <div class="tab-container">
+      <div class="tabs">
+         <div class="tab">
+            <div class="tab-desc">
+               <div class="tab-head">OnePlus Pad Go</div>
+               <div class="tab-sub-head">
+                  Pre-order is live! (8+128 GB variant only).<br>
+                  Get a free Go Folio Case with Pre-order post delivery. Pre-order ends on 20th Oct
+               </div>
+               <div class="tab-price">From ₹17,999 *Incl. bank Discount</div>
+               <div class="tab-buttons">
+                  <button class="btn-2">Pre-order Now</button>
+                  <button class="btn-3">Learn More</button>
+               </div>
+            </div>
+            <div class="tab-img">
+               <img class="tablet"
+                  src="https://www.oneplus.in/content/dam/oasis/page/2023/in/medium-product-card/Bluey-%E4%B8%AD%E4%BA%A7%E5%93%81%E5%8D%A1-pc-10.6.png.thumb.webp"
+                  alt="">
+            </div>
+         </div>
+
+         <div class="tab-1">
+            <div class="tab-desc-1">
+               <div class="tab-head">OnePlus Bullets Wireless Z2</div>
+               <div class="tab-sub-head-1">
+                  Save extra up to ₹200 by using the APP exclusive coupon
+               </div>
+               <div class="tab-price">At ₹1 349 *Incl. bank discount</div>
+               <div class="tab-buttons">
+                  <button class="btn-2">Buy Now</button>
+                  <button class="btn-3">Learn More</button>
+               </div>
+            </div>
+            <div class="head-img">
+               <img class="headphone"
+                  src="https://www.oneplus.in/content/dam/oasis/page/2023/in/medium-product-card/pc-7.12-1.png.thumb.webp"
+                  alt="">
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="separator-2"></div>
+
+   <p class="weekly">This Week’s Hot Picks</p>
+   <hr>
+
+   <div class="week-menu">
+      <div class="manu manu-1">Highlights</div>
+      <div class="manu manu-2">Phone</div>
+      <div class="manu manu-3">TV & Display</div>
+      <div class="manu manu-4">Audio</div>
+      <div class="manu manu-5">Wearables</div>
+      <div class="manu manu-6">Accessories</div>
+   </div>
+
+   <div class="product-list">
+      <div class="prod-1 prod">
+         <div class="prod-img">
+            <img src="https://image01-in.oneplus.net/ebp/202303/29/1-m00-50-fd-cpgm7wqj5riagurqaakzkxnnips198.png"
+               alt="">
+         </div>
+         <div class="prod-desc">
+            <div class="prod-head">OnePlus Nord CE 3 Lite 5G</div>
+            <div class="prod-coin">Save with RedCoins</div>
+            <div class="prod-coupon">Save ₹500 with coupon</div>
+            <div class="prod-btn">
+               <i class="cart fa-solid fa-cart-shopping"></i>From $19,999
+            </div>
+         </div>
+      </div>
+      <div class="prod-2 prod">
+         <div class="prod-img">
+            <img src="https://image01-in.oneplus.net/ebp/202302/08/1-m00-4e-16-cpgm7mpjxnoabtqjaah4p22vdfq137.png"
+               alt="">
+         </div>
+         <div class="prod-desc">
+            <div class="prod-head">OnePlus 11 5G</div>
+            <div class="prod-coin">With Gift</div>
+            <div class="prod-coupon">Save ₹4 000 with coupon. Get free Buds Z2 on every purchase.</div>
+            <div class="prod-btn">
+               <i class="cart fa-solid fa-cart-shopping"></i>From $56,999
+            </div>
+         </div>
+      </div>
+      <div class="prod-3 prod">
+         <div class="prod-img">
+            <img src="https://image01-in.oneplus.net/ebp/202303/28/1-m00-50-fb-cpgm7wqiw0kacxzxaaj0aogerf8199.png"
+               alt="">
+         </div>
+         <div class="prod-desc">
+            <div class="prod-head">OnePlus Nord Buds 2</div>
+            <div class="prod-coin"></div>
+            <div class="prod-coupon">Save extra up to ₹200 by using the APP exclusive coupon</div>
+            <div class="prod-btn">
+               <i class="cart fa-solid fa-cart-shopping"></i>From $2,999
+            </div>
+         </div>
+      </div>
+      <div class="prod-4 prod">
+         <div class="prod-img">
+            <img src="https://image01-in.oneplus.net/ebp/202304/13/1-m00-51-1b-cpgm7wq35waawfbbaas0vraswfq234.png"
+               alt="">
+         </div>
+         <div class="prod-desc">
+            <div class="prod-head">OnePlus Pad</div>
+            <div class="prod-coin"></div>
+            <div class="prod-coupon">Save ₹2000 with RCC Linked Device Coupon.</div>
+            <div class="prod-btn">
+               <i class="cart fa-solid fa-cart-shopping"></i>From $35,499
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="separator-2"></div>
+
+   <p class="view">
+      <center>View all products ></center>
+   </p>
+
+   <div class="separator-3"></div>
+
+   <div class="black-section">
+      <div class="separator-2"></div>
+      <div class="mobile-container">
+         <div class="mobile">
+            <div class="mobile-desc">
+               <p class="one-1">One For All</p>
+               <div class="mobile-head">
+                  OnePlus Ensemble
+               </div>
+
+               <p class="price">
+                  Seamlessly connect all the OnePlus products to one another for a smart and smooth experience.
+               </p>
+               <p class="discount">
+                  At ₹109 997* Incl. Bank Discount
+               </p>
+               <div class="buttons">
+                  <button class="btn-3">Buy Now</button>
+               </div>
+            </div>
+            <div class="mobile-img">
+               <img
+                  src="https://www.oneplus.in/content/dam/oasis/page/2023/in/home/oneplus-ecosystem/largecard.jpg.thumb.webp"
+                  alt="">
+            </div>
+         </div>
+      </div>
+
+      <div class="separator-2"></div>
+
+      <p class="weekly">OnePlus Featuring</p>
+      <hr>
+
+      <div class="mobile-head">
+         <p class="haad">A new platform that strives to 'Empower the quality of your digital life'. <span aria-label="arrow">Discover more</span> <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></p>
+      </div>
+   </div>
 </body>
+
 </html>
