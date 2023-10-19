@@ -185,6 +185,7 @@ body {
 
 .mobile-head {
     font-size: 48px;
+    margin-bottom: 32px;
 }
 
 .net {
@@ -428,6 +429,8 @@ body {
 
 hr {
     opacity: 0.3;
+    width: 85%;
+    margin: auto;
 }
 
 .week-menu {
@@ -474,7 +477,6 @@ hr {
 .prod-desc {
     display: flex;
     flex-direction: column;
-    justify-content: last baseline;
 }
 
 
@@ -550,7 +552,7 @@ hr {
 
 .black-section {
     background-color: #000000;
-    color: #fffeeb;
+    color: #fff;
 }
 
 .one-1 {
@@ -572,4 +574,254 @@ span {
 .arrow {
     color: red;
     transition: all 0.5s;
+}
+
+.mobile-padding-1 {
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.btn a {
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.btn a:hover {
+    color: blue;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.mobile-padding-2 {
+    padding-right: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.mobile-desc-2 {
+    width: 100%;
+}
+
+.discount-1 {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 40px;
+}
+
+.learn {
+    text-align: center;
+    color: #000;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.mobile-padding-3 {
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.discount-2 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+}
+
+/* ********************* */
+/*       OS Section         */
+/* ********************* */
+
+.os-section {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 400px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.section {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    background-color: #222222;
+}
+
+.section-desc {
+    width: 50%;
+    position: relative;
+    padding: 20px;
+    background-color: #222222;
+}
+.section-img {
+    width: 51%;
+    overflow: hidden;
+}
+
+.section-img img {
+    width: 250%;
+    margin-left: -230px;
+    transition: ease-in-out .3s;
+}
+.section-img img:hover {
+    transform: scale(1.1);
+}
+
+
+.learn-more a {
+    color: #fff;
+}
+.learn-more a:hover {
+    color: blue;
+}
+
+.bottom-section {
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-desc {
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.top-sub-head {
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+.top-head {
+    font-size: 32px;
+
+}
+
+.horizon-img {
+    width: 51%;
+    overflow: hidden;
+}
+
+.horizon-img img {
+    width: 120%;
+    margin-left: -30px;
+}
+
+.learn4 a{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+.learn4 a:hover {
+    color: blue;
+}
+
+.discount-4 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+}
+
+/* ********************* */
+/*       White Section         */
+/* ********************* */
+
+.current {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 13px;
+}
+
+.join {
+    cursor: pointer;
+}
+
+.join i {
+    color: red;
+    font-size: 14px;
+}
+
+.btn7 a {
+ color: #000000;
+ font-size: 14px;
+}
+
+.btn7 a:hover {
+    color: rgb(24, 110, 207);
+}
+
+.mobile-padding-5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.discount-5 {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 40px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.shot {
+    background-color: #f8f8f8;
+}
+
+.shot-desc {
+    background-color: #f8f8f8;
+}
+
+.section-img-1{
+    width: 51%;
+    overflow: hidden;
+}
+
+.section-img-1 img {
+    width: 100%;
+    transition: ease-in-out 0.3s;
+}
+
+.section-img-1 img:hover {
+    transform: scale(1.1);
+}
+
+.h-img {
+    width: 51%;
+    overflow: hidden;
+}
+
+.h-img img {
+    transition: ease-in-out 0.3s;
+    width: 100%;
+}
+
+.h-img img:hover {
+    transform: scale(1.1);
+}
+
+.boo a {
+    color: #000;
+}
+
+.boo a:hover {
+    color: rgb(24, 110, 207);
 }
