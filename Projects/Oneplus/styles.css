@@ -669,6 +669,7 @@ span {
     padding: 20px;
     background-color: #222222;
 }
+
 .section-img {
     width: 51%;
     overflow: hidden;
@@ -679,6 +680,7 @@ span {
     margin-left: -230px;
     transition: ease-in-out .3s;
 }
+
 .section-img img:hover {
     transform: scale(1.1);
 }
@@ -687,6 +689,7 @@ span {
 .learn-more a {
     color: #fff;
 }
+
 .learn-more a:hover {
     color: blue;
 }
@@ -721,11 +724,12 @@ span {
     margin-left: -30px;
 }
 
-.learn4 a{
+.learn4 a {
     color: white;
     position: absolute;
     bottom: 0;
 }
+
 .learn4 a:hover {
     color: blue;
 }
@@ -759,8 +763,8 @@ span {
 }
 
 .btn7 a {
- color: #000000;
- font-size: 14px;
+    color: #000000;
+    font-size: 14px;
 }
 
 .btn7 a:hover {
@@ -790,7 +794,7 @@ span {
     background-color: #f8f8f8;
 }
 
-.section-img-1{
+.section-img-1 {
     width: 51%;
     overflow: hidden;
 }
@@ -824,4 +828,211 @@ span {
 
 .boo a:hover {
     color: rgb(24, 110, 207);
+}
+
+.line-menu {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    padding-left: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+}
+
+.line1 {
+    border-right: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.line1 i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.line2 {
+    border-right: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.line2 i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.line3 {
+    border-right: 1.5px solid rgba(0, 0, 0, 0.119);
+}
+
+.line3 i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.line4 i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* ********************* */
+/*       Footer        */
+/* ********************* */
+
+.stay {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.exclusive-discount {
+    width: 85%;
+    margin: auto;
+    gap: 20px;
+    display: flex;
+    padding-bottom: 80px;
+    
+}
+
+.part {
+    width: 50%;
+    height: 320px;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.part-1 {
+    background-image: url('https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/APPdownload_PC_Red_New.png.thumb.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.part-2 {
+    background-image: url('https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/Subscribe-PC-2card.jpg.thumb.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.part-desc {
+    position: relative;
+    max-width: 280px;
+    height: 100%;
+}
+
+.part-head {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.part-sub-head {
+    font-size: 14px;
+}
+
+.part-btn {
+    position: absolute;
+    bottom: 0;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #828282;
+}
+
+.pat-desc {
+    font-size: 12px;
+    margin-top: 60px;
+    color: #828282;
+}
+
+/* ********************* */
+/*       Footer Menu       */
+/* ********************* */
+
+.footer-menu {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    text-align: left;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.zoro {
+    line-height: 52px;
+}
+
+.menus {
+    font-size: 12px;
+    color: #fffafa;
+    opacity: 0.8;
+    padding: 8px 0px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    color: #fffafa;
+    opacity: 0.8;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.left-social {
+    display: flex;
+    gap: 24px;
+}
+
+.right-social {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+}
+
+.social-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    color: #fffafa;
+    opacity: 0.8;
+    font-size: 12px;
+    padding-bottom: 32px;
+}
+
+.left-social-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.right-social-1 {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+}
+
+.haz {
+    padding-right: 10px;
+    border-right: 1px solid #fffafacb;
+    font-size: 12px;
+    text-align: left;
+    height: 16px;
+}
+
+.haze img {
+    width: 75px;
+    height: 24px;
+    border: none;
 }
