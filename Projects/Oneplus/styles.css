@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #4a4a4a;
+        border-radius: 5px;
+    }
+    scrollbar-width: thin;
+    scrollbar-color: #16c6c6 #db2d2d;
+}
+
 body {
     background-color: #fffeeb;
     font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
@@ -34,10 +48,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 93%;
-    margin: auto;
+    width: 100%;
     font-size: 14px;
     line-height: 50px;
+    position: fixed ;
+    z-index: 10;
+    background-color: #fff;
+    transition: all .5s;
 }
 
 .menu-icon {
@@ -65,6 +82,11 @@ body {
 .menu {
     cursor: pointer;
     padding: 0px 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
 }
 
 .menu:hover {
@@ -329,10 +351,12 @@ body {
     display: flex;
     gap: 20px;
     height: 400px;
+    overflow: hidden;
 }
 
 .tab {
     display: flex;
+    overflow: hidden;
     width: 50%;
     padding: 20px;
     padding-right: 0px;
@@ -347,6 +371,7 @@ body {
 .tablet {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     object-fit: cover;
     width: 90%;
     margin: auto;
@@ -621,6 +646,7 @@ span {
 
 .learn {
     text-align: center;
+    cursor: pointer;
     color: #000;
     position: absolute;
     display: flex;
@@ -697,6 +723,7 @@ span {
 .bottom-section {
     position: absolute;
     bottom: 0;
+    margin-bottom: 20px;
 }
 
 .bottom-desc {
@@ -938,6 +965,7 @@ span {
     bottom: 0;
     height: 48px;
     display: flex;
+    cursor: pointer;
     justify-content: center;
     gap: 10px;
     align-items: center;
@@ -977,6 +1005,7 @@ span {
     color: #fffafa;
     opacity: 0.8;
     padding: 8px 0px;
+    cursor: pointer;
 }
 
 .social {
@@ -992,12 +1021,14 @@ span {
 
 .left-social {
     display: flex;
+    cursor: pointer;
     gap: 24px;
 }
 
 .right-social {
     display: flex;
     gap: 24px;
+    cursor: pointer;
     font-size: 14px;
 }
 
@@ -1027,6 +1058,7 @@ span {
     padding-right: 10px;
     border-right: 1px solid #fffafacb;
     font-size: 12px;
+    cursor: pointer;
     text-align: left;
     height: 16px;
 }
@@ -1034,5 +1066,20 @@ span {
 .haze img {
     width: 75px;
     height: 24px;
+    cursor: pointer;
     border: none;
 }
+
+.hidden {
+    transition: all .3s;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.show {
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0px);
+}
+
+
