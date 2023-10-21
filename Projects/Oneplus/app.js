@@ -19,7 +19,6 @@ const navbar = document.getElementById('nav-menu');
 
 window.addEventListener("scroll", function () {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    console.log('Scroll Top: ' + scrollTop); // Add this line for debugging
     if (scrollTop > lastScrollTop) {
         navbar.style.top = "-80px";
     } else {
