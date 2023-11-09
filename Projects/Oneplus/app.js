@@ -14,17 +14,17 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach(el => observer.observe(el));
 
-let lastScrollTop = 0;
-const navbar = document.getElementById('nav-menu');
+// let lastScrollTop = 0;
+// const navbar = document.getElementById('nav-menu');
 
-window.addEventListener("scroll", function () {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (scrollTop > lastScrollTop) {
-        navbar.style.top = "-80px";
-    } else {
-        navbar.style.top = "0";
-    }
-    lastScrollTop = scrollTop;
-});
+// window.addEventListener("scroll", function () {
+//     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+//     if (scrollTop > lastScrollTop) {
+//         navbar.style.top = "-80px";
+//     } else {
+//         navbar.style.top = "0";
+//     }
+//     lastScrollTop = scrollTop;
+// });
 
 
